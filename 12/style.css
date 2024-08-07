@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1400px;
+    margin: 80px auto;
+}
+
+.contact-section, .info-section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 48%;
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.contact-section h2 span {
+    color: #e74c3c;
+}
+
+.contact-section p {
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.contact-section form .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.contact-section form input   {
+    width: 250%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-section form textarea {
+    width: 250%;
+    height: 200px;
+}
+
+.contact-section form button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background-color: #c0392b;
+}
+
+.info-section h3 {
+    color: #2c3e50;
+    margin-top: 10px;
+}
+
+.info-section p {
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+}

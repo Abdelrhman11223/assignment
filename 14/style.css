@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f8fc;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+.header .subtitle {
+    color: #ff5252;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.property-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.property-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    position: relative;
+    transition: transform 0.3s;
+}
+.property-card:hover {
+    transform: translateY(-10px);
+}
+.property-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.property-card .content {
+    padding: 15px;
+}
+.property-card .content h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+.property-card .content .location {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 10px;
+}
+.property-card .content .details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.property-card .content .price {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+}
+.badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+.badge.discount {
+    background: #2ecc71;
+}

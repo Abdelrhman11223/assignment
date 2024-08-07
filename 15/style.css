@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pricing-table {
+    text-align: center;
+}
+
+.pricing-table h1 {
+    margin-bottom: 40px;
+}
+
+.plan {
+    display: inline-block;
+    background: #fff;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.plan-header {
+    background-color: #3f50f6;
+    color: white;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.plan-header h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.plan-header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+.featured {
+    display: block;
+    background-color: #3f50f6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.plan h3 {
+    margin: 20px 0 10px;
+}
+
+.plan p {
+    margin: 0 0 20px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.plan button {
+    background-color: #3f50f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.plan button:hover {
+    background-color: #2e3eb8;
+}

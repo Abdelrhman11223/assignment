@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 2em 0;
+    border-bottom: 1px solid white;
+    margin: 35px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.doctors {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.doctor {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1em;
+    text-align: center;
+    width: 250px;
+    padding: 1em;
+}
+
+.doctor img {
+    width: 200px;
+    height: 115px;
+  margin: 30px;
+}
+
+.doctor h2 {
+    margin: 0.5em 0 0.2em;
+    font-size: 1.2em;
+}
+
+.doctor p {
+    color: #777;
+    margin: 0;
+}
