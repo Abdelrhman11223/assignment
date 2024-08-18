@@ -1,58 +1,51 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white;
+    background-color: #f4f4f4;
+    margin: 50px;
+    padding: 50px;
 }
 
-header {
-    background-color: white;
-    color: #333;
-    text-align: center;
-    padding: 2em 0;
-    border-bottom: 1px solid white;
-    margin: 35px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2em;
-    font-weight: bold;
-    
-}
-
-
-.doctors {
+.container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 2em;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
 }
 
-.doctor {
-    background-color: white;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 1em;
-    text-align: center;
-    width: 250px;
-    padding: 1em;
+.features-left, .features-right {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.doctor img {
-    width: 300px;     
-    height: 200px; 
-    margin-bottom: 20px;
-    border-radius: 8px;
+.feature {
+    display: flex;
+    flex-direction: column;
 }
 
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
-.doctor h2 {
-    margin: 0.5em 0 0.2em;
+.icon-text img {
+    width: 30px; 
+    height: 30px;
+}
+
+.feature h3 {
+    color: #333;
     font-size: 1.5em;
 }
 
-.doctor p {
+.feature p {
     color: #777;
-    margin: 0;
+    font-size: 1em;
+}
+
+.phone-image img {
+    width: 320px; 
+    height: auto;
 }

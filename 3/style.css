@@ -1,39 +1,49 @@
-.Assignment-container {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    font-family: Arial, sans-serif;
-    padding: 300px 0;
-    
-}
+  
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
 
-.Assignment-box {
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-}
+        .container {
+            display: flex;
+            gap: 20px;
+        }
 
-.Assignment-icon {
-    font-size: 24px;
-    color: #900C3F; 
-    margin-right: 15px;
-}
+        .feature-box {
+            background-color: #8c68ff;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 250px;
+            position: relative;
+        }
 
-.Assignment-text {
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-}
+        .feature-box .icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+            width: 130px;
+            
+        }
 
-.Assignment-value {
-    font-size: 50px;
-    color: #000000;
-    margin: 0;
-}
+        .feature-box .number {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 36px;
+            opacity: 0.2;
+        }
 
-.Assignment-label {
-    font-size: 12px;
-    color: #777;
-}
+        .feature-box h2 {
+            font-size: 21px;
+            width: 250px;
+        }
+
+        .feature-box p {
+            font-size: 15px;
+        }
